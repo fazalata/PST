@@ -1,0 +1,51 @@
+<!--Jeg har hvit bakgrunn, svart header,footer,knapper og tiitel. Det er kontrast og gir en bra brukeropplevelse. Jeg har brukt colourbox til å hente ut de fleste bilder. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forsiden</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/Utils.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-grid-container">
+            <div class="grid-item  text-right" style="background-color:rgb(0,0,0)">
+                <a href="home.html"> <img src="images/logo.JPG" class="logo"></a>
+            </div>
+            <div class="grid-item text-left" style="background-color:rgb(0,0,0)">
+                <div class="display-inline menu-item">
+                <button><a href="home.html" class="menu-item-a">Forside</a></button>
+                </div>
+                
+                <div class="display-inline menu-item">
+                    <button><a href="admin.html" class="menu-item-a">Admin</a></button>
+                </div>
+            </div>
+        </div>
+    </header><main>
+    <div class="banner">
+        <div id="caption">Politiets sikkerhetstjeneste</div>
+        <img src="images/banner.jpg" style="height: 202px;width: 100%;">
+    </div>
+    <div class="grid-container" id="divCases">
+        <div class="grid-item" style="height: 252px">
+            <a href="case-details.html?caseId="><img src="images/case-1.jpg" style="width: 400px"></a>
+        </div>
+    </div>
+</main>
+
+<script src="js/page/home.js"></script><footer class="text-center" style="padding: 10px;">
+    <div>PST Telefon: 23 90 90 90</div>
+    <br />
+    <div>PST Epost: Pst@kristina.no</div>
+</footer>
+</body>
+
+</html>
+
+
+<script src="js/CaseLib.js"></script>
